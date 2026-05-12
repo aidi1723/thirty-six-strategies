@@ -1,0 +1,4 @@
+interface:
+  display_name: "三十六计战略引擎"
+  short_description: "用三十六计战术算子生成商业博弈、谈判、合同、营销和新闻解读策略。"
+  default_prompt: "用三十六计战略引擎分析这个局势，并输出可执行的战场诊断、主推战术、执行沙盘和风控预案。"
