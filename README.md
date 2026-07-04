@@ -16,6 +16,19 @@
 - 新闻、公告、组织调整和市场动作解读
 - L1 战略审计后的破局、转向、止损或退出方案
 
+## 安装到 Codex
+
+使用 Codex 自带的 `skill-installer` 从 GitHub 安装：
+
+```bash
+python3 "$HOME/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
+  --repo aidi1723/thirty-six-strategies \
+  --path . \
+  --name thirty-six-strategies
+```
+
+安装后重启 Codex，使 `$thirty-six-strategies` 进入可发现 skill 列表。若目标目录已存在，请先备份或删除旧目录后再安装。
+
 ## 核心工作流
 
 Skill 会按三步输出战术方案：
