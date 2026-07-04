@@ -1,6 +1,6 @@
 # 三十六计战略引擎 Skill 发布说明
 
-版本：v1.0
+当前版本：v1.1
 
 ## 项目简介
 
@@ -53,7 +53,19 @@ Skill 会据此输出：
 
 ## 版本说明
 
-- 当前版本：v1.0
+### v1.1
+
+发布后可用化与验证增强版本：
+
+- 新增 `scripts/validate.rb`，校验 frontmatter、Markdown、YAML、JSON schema、README 字段覆盖、workflow 场景覆盖和 examples 输出结构。
+- 新增 `references/examples.md`，提供低价竞品报价谈判场景的 forward-test 样例。
+- 新增 MIT License、README 安装说明、`CLOSEOUT.md` 和 `FINAL_REPORT.md`。
+- 明确 Codex 安装方式和重启后发现 `$thirty-six-strategies` 的使用路径。
+- 完成 GitHub 安装验证，确认可通过 Codex skill installer 安装。
+- 明确后续维护规则：不移动 `v1.0`，后续功能和维护更新使用新版本标签。
+
+### v1.0
+
 - 主要内容：基础 Skill 结构、算子库、调用 schema、场景工作流
 
 ## 注意事项
@@ -61,4 +73,3 @@ Skill 会据此输出：
 - 本 Skill 仅用于合法、合规、可执行的战略分析
 - 不应将其用于违法、暴力、欺诈、隐私侵犯或合同滥用
 - 复杂法务、财务、监管场景应结合专业审核
-

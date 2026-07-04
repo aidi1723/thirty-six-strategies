@@ -6,9 +6,11 @@ Date: 2026-07-04
 
 - Repository: `thirty-six-strategies`
 - Default branch: `main`
-- Release tag: `v1.0`
-- Release commit: `7584b27` (`Add README and license`)
-- GitHub Release: https://github.com/aidi1723/thirty-six-strategies/releases/tag/v1.0
+- Current release tag: `v1.1`
+- Initial release tag: `v1.0`
+- Initial release commit: `7584b27` (`Add README and license`)
+- Current GitHub Release: https://github.com/aidi1723/thirty-six-strategies/releases/tag/v1.1
+- Initial GitHub Release: https://github.com/aidi1723/thirty-six-strategies/releases/tag/v1.0
 - License: MIT
 
 ## Completed Work
@@ -18,6 +20,7 @@ Date: 2026-07-04
 - Added `scripts/validate.rb` for deterministic local validation.
 - Added `references/examples.md` as a forward-test example for a low-price competitor quote scenario.
 - Documented when to load examples for output calibration and scenario testing.
+- Added `FINAL_REPORT.md` and `v1.1` release notes for the final delivery state.
 
 ## Verification Evidence
 
@@ -40,7 +43,7 @@ and Markdown fence check is needed across both skills.
 
 ## Maintenance Rules
 
-- Do not move `v1.0` for maintenance-only commits.
+- Do not move `v1.0`; use new version tags for maintenance or capability updates.
 - Keep `references/schema.md`, `SKILL.md`, `README.md`, and `references/examples.md`
   aligned on the four input fields:
   `context_type`, `dilemma_or_input`, `my_resources_and_position`, `opponent_profile`.
