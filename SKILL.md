@@ -32,7 +32,7 @@ Always follow this three-step analysis:
 2. **算子组合推演**: Select 2-3 matching stratagem operators. Build either a `组合技` with simultaneous visible/hidden lines, or a `连环计` with staged setup and capture.
 3. **降维行动方案生成**: Convert the operator logic into concrete actions, owners, sequence, resource cost, risk controls, and retreat path.
 
-Load `references/operators.md` when selecting or explaining the stratagem operators. Load `references/workflows.md` when adapting the engine to the five supported business scenarios.
+Load `references/operators.md` when selecting or explaining the stratagem operators. Load `references/workflows.md` when adapting the engine to the five supported business scenarios. Load `references/examples.md` when checking output style, forward-testing behavior, or calibrating a concrete business scenario.
 
 ## Operator Selection Heuristics
 

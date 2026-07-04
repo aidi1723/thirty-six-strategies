@@ -69,4 +69,12 @@ missing_workflows = context_types.reject do |context_type|
 end
 abort_with("workflows do not cover context types: #{missing_workflows.join(', ')}") unless missing_workflows.empty?
 
+examples_text = read(File.join(skill_dir, 'references/examples.md'))
+missing_example_fields = expected_fields.reject { |field| examples_text.include?("`#{field}`") }
+abort_with("examples do not document fields: #{missing_example_fields.join(', ')}") unless missing_example_fields.empty?
+
+required_output_sections = %w[战场诊断 主推战术 执行沙盘 成本与风控预案]
+missing_sections = required_output_sections.reject { |section| examples_text.include?("【#{section}】") }
+abort_with("examples do not cover output sections: #{missing_sections.join(', ')}") unless missing_sections.empty?
+
 puts 'Validation passed'
